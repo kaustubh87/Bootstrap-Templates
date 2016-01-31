@@ -1,0 +1,206 @@
+body {
+  padding-top: 50px;
+}
+
+.em-text {
+    
+    color:#1caa98 !important;
+}
+
+.col-md-4{
+    
+    margin-bottom: 20px;
+}
+
+.jumbotron{
+    
+    background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+    color:#fff;
+    min-height:500px;
+    overflow: none;
+     
+}
+section{
+    padding:40px 0 40px 0;
+    
+}
+.jumbotron img.app-btn{    
+    width:40%;
+    margin-right:30px;    
+}
+
+.jumbotron h1{
+    margin-top:60px;
+}
+
+.jumbotron p{
+    
+    margin-bottom: 40px;
+}
+
+.jumbotron .showcase-img{
+   
+}
+
+img.demo{
+    width:100%;
+    paddidng:3px;
+    border: 1px solid #ccc;
+}
+
+section#feature{
+    
+    background: #1caa98;
+    color:white;
+    padding:40px 0 40px 0;
+    overflow: auto;
+}
+
+section#feature ul li{
+    
+    font-size: 22px;
+    list-style: none;
+    line-height: 40px;
+    
+}
+
+section#feature ul {
+    
+    margin:0px;
+    padding:0px;
+    
+}
+
+
+section#title-bar{
+    padding:0px;
+    margin:0px;
+    height:80px;
+    background: #1caa98;
+    color:white;   
+}
+
+section#title-bar h1{
+    
+    margin-bottom: 20px;
+}
+
+section#contact-us {
+    
+    background: #1caa98;
+    color:white;
+    padding:40px 0 40px 0;
+}
+
+footer{
+    background: #333;
+    color: white;
+    padding:30px 0 20px 0;  
+    
+}
+
+footer a{
+    color:#fff;
+    
+}
+
+footer li{
+    float:left;
+    padding:0 10px 0 10px;
+    list-style: none;
+     
+}
+
+footer p{
+    
+    float:right;
+    
+}
+
+/*Media Queries */
+
+@media(max-width: 1200px){
+   
+    
+    
+}
+
+/*get rid of phone image */
+@media(max-width: 991px){
+    .showcase-img{
+        
+        display:none;
+    }
+    
+    
+}
+
+/* between 768 and 990 */
+@media(min-width: 768px) and (max-width: 990px){
+    
+ .jumbotron img.app-btn{    
+    width:30%;
+    margin-right:30px;    
+}
+    .jumbotron{ 
+        height:400px !important;
+        background-size:100% 100%;
+    }
+    
+    .jumbotron h1{
+        margin-top:10px;
+        
+    }
+    
+   
+}
+
+@media(max-width: 768px){
+   
+    .jumbotron{ 
+        height:350px !important;
+        background-size:100% 100%;
+    }
+    
+    .jumbotron h1{
+        margin-top:10px;
+        
+    }
+    
+}
+
+/* for phones */
+@media(max-width: 500px){
+    
+      .jumbotron{ 
+        height:450px !important;
+        background-image: none;
+        text-align: center;
+    }
+    
+    .jumbotron img.app-btn{    
+    width:60%;
+    margin:0px auto 30px auto;
+        display: block
+}
+    
+    section#feature ul li{
+    
+    font-size: 19px !important;
+   
+    
+}
+    
+    footer p{
+        float:none;
+        font-size:12px;
+        text-align: center;
+        padding-top:10px;
+    }
+    
+    
+   
+    
+    
+}
+
